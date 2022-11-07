@@ -1,7 +1,7 @@
 # runescape-pvm-macros
-My personal pvm macros for Runescape 3. Just a BUNCH of else if, Send, and Sleep statements thrown in with some checks with AutoHotKey's CoordMode command.
+My personal PvM macros for Runescape 3. Just a BUNCH of else if, Send, and Sleep statements thrown in with some checks with AutoHotKey's CoordMode and ImageSearch commands.
 This includes macros for: 
-* Bladed dive - Respects when you have a dungeoneering weapon equipped, making you not unequip it. It also respects when you have laceration boots equipped, making the macro only send the bladed dive key. This may be useful for bladed diving shadow blobs at Raksha or other places you'd rather bladed dive with a 2h.
+* Bladed dive - Equips your bladed dive switches if they're not already equipped and presses bladed dive, otherwise acts as pressing bladed dive normally. Respects when you have a dungeoneering weapon equipped, making you not unequip it. It also respects when you have laceration boots equipped, making the macro only send the bladed dive key. This may be useful for bladed diving shadow blobs at Raksha or other places you'd rather bladed dive with a 2h.
 
 * Equipping dual wield - Very simple, just presses two keybinds for you.
 
@@ -11,7 +11,7 @@ This includes macros for:
 
 
 <h1> How check works, yes? </h1>
-All my checks work by reading your screen via AutoHotKey's CoordMode and comparing it to images you provide. 
+All my checks work by reading your screen via AutoHotKey's CoordMode and ImageSearch commands and comparing it to images you provide. 
 For example, my excalibur check used for the bladed dive macro:
 
 ![image](https://user-images.githubusercontent.com/32413258/200340773-971eeed4-436c-497a-98aa-f8813c185f80.png)
