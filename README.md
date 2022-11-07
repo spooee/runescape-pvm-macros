@@ -11,7 +11,7 @@ This includes macros for:
 
 
 <h1> How check works, yes? </h1>
-All my checks work by reading your screen via AutoHotKey's CoordMode and comparing it to images you provide. 
+All my checks work by reading your screen via AutoHotKey's CoordMode and ImageSearch commands and comparing it to images you provide. 
 For example, my excalibur check used for the bladed dive macro:
 
 ![image](https://user-images.githubusercontent.com/32413258/200340773-971eeed4-436c-497a-98aa-f8813c185f80.png)
