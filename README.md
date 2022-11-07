@@ -1,5 +1,5 @@
 # runescape-pvm-macros
-My personal pvm macros for Runescape 3. Just a BUNCH of else if, Send, and Sleep statements thrown in with some checks with AutoHotKey's CoordMode command.
+My personal PvM macros for Runescape 3. Just a BUNCH of else if, Send, and Sleep statements thrown in with some checks with AutoHotKey's CoordMode command.
 This includes macros for: 
 * Bladed dive - Respects when you have a dungeoneering weapon equipped, making you not unequip it. It also respects when you have laceration boots equipped, making the macro only send the bladed dive key. This may be useful for bladed diving shadow blobs at Raksha or other places you'd rather bladed dive with a 2h.
 
